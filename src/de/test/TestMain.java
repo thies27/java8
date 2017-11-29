@@ -15,6 +15,8 @@ public class TestMain {
 	public static void main(String[] args) {
 		
 		System.out.println("Start Erforschung Java 8");
+		
+		System.out.println("Erforschung in Linux hat geklappt ");
 
 	}
 
