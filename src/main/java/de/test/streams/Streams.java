@@ -7,11 +7,17 @@ import java.util.stream.Collectors;
 public class Streams {
 
 	public void createStream() {
-		
+
 		List<Person> persons = createPersonList();
 
 		List<Person> adults = persons.stream().filter(Person::isAdult).collect(Collectors.toList());
-		
+
+		for (Person person : adults) {
+			System.out.println(person.getFirstName() + " " + person.getLastName());
+		}
+
+		//adults = persons.stream().filter(Person::equals("Regina")).collect(Collectors.toList());
+
 		for (Person person : adults) {
 			System.out.println(person.getFirstName() + " " + person.getLastName());
 		}
