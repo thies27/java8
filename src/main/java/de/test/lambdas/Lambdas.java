@@ -9,10 +9,10 @@ public class Lambdas {
 
 	public void alteSortierung() {
 
-		List<String> namen = Arrays.asList("Martina", "Ingolf", "Ramona", "Bärbel", "Christine", "Bernd", "Udo",
+		List<String> namen = Arrays.asList("Martina", "Ingolf", "Ramona", "BÃ¤rbel", "Christine", "Bernd", "Udo",
 				"Dirk");
 		
-		// Sortierung nach Länge des Namens
+		// Sortierung nach Lï¿½nge des Namens
 		Collections.sort(namen, new Comparator<String>() {
 
 			@Override
