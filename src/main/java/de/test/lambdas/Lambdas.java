@@ -12,7 +12,7 @@ public class Lambdas {
 		List<String> namen = Arrays.asList("Martina", "Ingolf", "Ramona", "Bärbel", "Christine", "Bernd", "Udo",
 				"Dirk");
 		
-		// Sortierung nach L�nge des Namens
+		// Sortierung nach Länge des Namens
 		Collections.sort(namen, new Comparator<String>() {
 
 			@Override
